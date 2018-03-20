@@ -1,0 +1,32 @@
+/*
+THE STYLES BELOW ARE ONLY SAMPLE
+*/
+
+body{
+  margin: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.background{
+  background-color: #f8f8f8 ;
+}
+
+#hero{
+  background-position: center;
+  background-image: image();
+  background-size: cover;
+}
+
+h1{
+  font-size: 3em;
+  color: #fff;
+  padding: 20px;
+}
+
+p{
+  text-overflow: clip;
+  font-weight: normal;
+  color: #fff;
+}
