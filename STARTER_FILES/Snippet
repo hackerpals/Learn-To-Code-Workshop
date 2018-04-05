@@ -1,0 +1,95 @@
+/*
+ * Author: Hasib Sarvari
+ * URL: http:hackerpals.com
+ * Learn To Code Workshop
+ * Version: 1.1.3
+ *
+ */
+
+/* ----  Global Styles
+------------------------- */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* * {
+  border: 1px solid red !important;
+} */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  width: auto;
+}
+
+i {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+hr {
+  width: 30%;
+  color: #000;
+}
+
+h2 {
+  font-size: 43px;
+}
+
+.centered {
+  text-align: center;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 50%;
+}
+
+/* ----  Header
+------------------------- */
+#top {
+  background: url(https://github.com/hackerpals/Learn-To-Code-Workshop/blob/master/WEBSITE/img/heroImage.jpg?raw=true)
+    no-repeat fixed;
+  background-size: cover;
+  width: auto;
+}
+
+header {
+  height: 600px;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 64px;
+}
+
+header p {
+  color: #fff;
+  font-size: 32px;
+}
+.top-centered {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
